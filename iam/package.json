@@ -1,0 +1,22 @@
+{
+  "name": "iam",
+  "version": "0.1.0",
+  "bin": {
+    "iam": "bin/iam.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.44.0",
+    "aws-cdk": "1.44.0",
+    "jest": "^25.5.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-iam": "^1.47.0",
+    "@aws-cdk/aws-s3": "^1.47.0",
+    "@aws-cdk/core": "1.44.0"
+  }
+}
